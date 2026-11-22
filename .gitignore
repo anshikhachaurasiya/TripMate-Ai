@@ -1,2 +1,4 @@
 travel
 .env
+__pycache__
+check.py

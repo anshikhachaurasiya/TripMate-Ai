@@ -478,7 +478,7 @@ def search_flights(query: str, limit: int = 10):
 
     params = {
         "access_key": API_KEY,
-        "limit": min(limit, 100),
+        "limit": min(limit,100),
     }
 
     if dep_iata:
@@ -537,5 +537,6 @@ def search_flights(query: str, limit: int = 10):
 
 if __name__ == "__main__":
     print(search_flights("Plan a 7 days Japan trip from India"))
-    print("\n" + "=" * 80 + "\n")
+    print("\n" + "*" * 80 + "\n")
     print(search_flights("all country flight info"))
+  # thanku
